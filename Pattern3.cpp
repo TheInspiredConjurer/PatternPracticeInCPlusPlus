@@ -1,13 +1,13 @@
 /*
 
     *****
-    *****
-    *****
-    *****
-    *****
+    ****
+    ***
+    **
+    *
 
 */
- 
+
 #include<iostream>
 
 int main()
@@ -21,9 +21,9 @@ int main()
 
   std::cout << std::endl;
 
-  for (int row = 1; row < n; row++)
+  for (int row = n; row > 0; row--)
   {
-    for (int col = 1; col <= n; col++)
+    for (int col = 1; col <= row; col++)
     {
 
       std::cout << "*";
