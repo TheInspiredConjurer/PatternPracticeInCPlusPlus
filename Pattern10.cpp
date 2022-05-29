@@ -24,17 +24,17 @@ int main()
   for (int row = 1; row <= n; row++)
   {
 
-    for (int space = (n - 1); space > 0; space--)
+    for (int space = (n - row); space > 0; space--)
     {
 
       std::cout << " ";
 
     }
 
-    for (int col = 1; col <= ((2 * n) - 1) ; col++)
+    for (int col = 1; col <= row ; col++)
     {
 
-      std::cout << "*";
+      std::cout << "* ";
 
     }
 
